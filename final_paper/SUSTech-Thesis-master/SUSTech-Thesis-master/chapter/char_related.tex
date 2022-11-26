@@ -1,0 +1,64 @@
+\chapter{RELATED WORK}
+\label{chap:related}
+Based on the summary of $kSPR$\cite{tang_mouratidis_yiu_2017}, 
+preference-based querying which based on the value of each attribute of products
+are mainly two kinds, skyline \cite{borzsony_kossmann_stocker, papadias_tao_fu_seeger_2005, Efficient_Progeressive, kossmann_ramsak_rost_2002}
+and top-$k$ query 
+\cite{chang_bergman_castelli_li_lo_smith_2000, hristidis_papakonstantinou_2004, prefer, towards_robust, zou_chen_2008}. 
+Skyline is also named as non-dominated set 
+\cite{996017}, 
+which including all 
+the data that each of them isn't dominated by any other data in the dataset. "X dominates Y" 
+means X is better them or equivalent to Y in all dimensions and there is at least one dimension 
+that X is better than Y. In our paper, we are more closed to top-$k$ query.  Top-$k$ query 
+will return $k$ products such that their scores are ranking top-$k$ respecting to the 
+input user. Our problem is to find the region that where the new product lies 
+will it rank top-$k$ for most of the rest given users. Another related problem is 
+reverse top-$k$ \cite{vlachou_doulkeridis_xx, vlachou_doulkeridis_kotidis_norvag_2010, vlachou_doulkeridis_kotidis_norvag_2011}, 
+which is to return the users that input product can rank top-$k$ 
+respecting to them. Based on the output of top-$k$ query, why-not top-$k$ query 
+\cite{6268270} is proposed
+to change the user weight vector by advertisements, correcting wrong user information or other ways
+with the minimum penalty to make an input product ranks top-$k$.  At the same time, 
+based on the output of reverse top-$k$ query, why-not reverse top-$k$ query
+\cite{gao_liu_chen_zheng_zhou_2015} is proposed to how to change the $k$ in top-$k$, 
+the user weight vector $w$ or the product $p$'s attribute values so as to make $w$ shown in 
+the reverse top-$k$ result of $p$.  
+
+
+One of the related studies for our problem is $k-hit$ query\cite{peng_wong_2015}, which 
+attempts to find 
+$k$ products from given product dataset so as to rank top-1 of users as more as 
+possible. The candidate solution of $k-hit query$ is discrete and finite while $kCRM$ 
+is to 
+find a new product ranks top-$k$ for as more users as possible.  At the same time, 
+$CRM$ may return unknown number optimal products or even infinite products from continuous 
+candidate space if only 
+they are all optimal at the same time. 
+
+
+A recent study $TopRR$\cite{tang_mouratidis_yiu_chen_2019} is very closed to our 
+problem, which is attempting to return 
+the product region that each of whose products can rank top-$k$ for all input users. 
+The major different between $TopRR$ and $kCRM$ is that the candidate space is not complete 
+in the domain of product for $kCRM$ since $kCRM$ can only choose the product that 
+satisfies the constraint, 
+which means in most cases, the optimal products can't cover all users and it is unknown
+that the optimal products will cover how many or which users. 
+
+
+In our paper, we use the $CTA$ approach as mentioned in $kSPR$ as our baseline. $kSPR$
+is to return the user region that an input product can rank top-$k$ and it uses
+a data structure $CellTree$ to exactly identify in which user space the product's score is
+better than product dataset's another product's score, so $CellTree$ can take the regions that 
+the input product not worse than other k products as results and return them. 
+For $kCRM$, we transform our problem into return the product region that covers input users 
+as more as possible. We find that to cover one or multiple users 
+product also lies in regions and $CellTree$ can store and process them either. $CellTree$
+will record each region cover how many users and return the region covers the most 
+users as $kCRM$'s answer.   
+ 
+
+ 
+
+

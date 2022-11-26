@@ -1,0 +1,49 @@
+
+\begin{enabstract}
+    Decision making problem is popular among these days. In rank aware processing, 
+    a user will only choose the option that ranks top-kF for himself. 
+    Concretely, preferences of users are usually represented as weight vectors. 
+    Each attribute of weight vector means how important is that attribute to that user. 
+    The score of an option respecting to a user is the dot product between the user's 
+    preference weight vector and the option. Only the options with top-k scores can 
+    attract the user. An option covers a user if and only if it can rank top-k for 
+    that user. Usually, a company has many products (options), each of which covers 
+    some of the users. A user covered by a company means at least one of its products 
+    covers this user. The company has to develop new product that satisfies a constraint 
+    and make its all products including this new product cover as more users as possible. 
+    In this paper, we study how to determinate which newly added option can maximize 
+    the cover ratio of the company. This problem is essential in developing new product, 
+    advertising, etc. We refer this problem as k-Cover Ratio Maximization. 
+    In this paper, we begin from top-k problem's computational geometric nature using 
+    Cell Tree to represented option spaces, and then from the relationship among constraint, 
+    options and user preference weight vectors to more efficiently solve this problem 
+    returning the exact optimal solution. We set a lot of experiments to show the efficiency
+    of our optimizations and at the same time we found interesting relationship 
+    between the constraint and running time. Combining with the experience of decision 
+    making, we found that it is hard to tell what kinds of product could cover the most
+    users when the constraint intersects with most the users top-k condition.
+
+\enkeywords{User Cover ratio, Introduce new option, Top-k query, Weight vector}
+\end{enabstract}
+
+\begin{cnabstract}
+近年来关于如何做决策的问题十分热门。在排名处理系统中， 会假设一个用户只会从排入他（她）
+前k的产品中作出选择。 具体地， 用户对于产品各种属性的爱好会用权重向量来表示。权重向量每个维度的
+大小表现了该维度对于该用户的重要性。一个产品的对于一个用户的分数就是产品的各个指标得分组成的向量
+与该用户的权重向量的点乘。只有排进该用户前k的产品才有可能影响用户最后的选择。当且仅当一个用户的
+产品排该用户前k时我们称该产品覆盖这个用户。对于一个公司， 它可能有很多产品， 每个产品都有各自的
+覆盖用户群。 当公司的至少一款产品能覆盖某个用户时， 我们称该公司用户覆盖该用户。随着市场以及自身业
+务的发展， 公司要研发一款新的满足一定约束条件的产品， 使得公司的所有产品包括新产品总的尽可能覆盖
+最多的用户。在本篇论文中我们会讨论如何精确找到这个能使公司覆盖率最大的新产品。 
+本篇论文讨论的问题在例如研发一款怎么样的新产品让公司总收益最大， 如何加强广告宣传使总覆盖用户最多
+等非常多领域都有很大的应用价值， 同时我们把这个问题命名为k-Cover Ratio Maximization。
+在本篇论文中， 我们从前k问题的计算几何性质入手用Cell Tree这种数据结构表达候选的产品空间， 
+然后从约束条件、产品、用户、前k条件等内在联系做优化大大提高解决问题效率, 最后返回最优解的解集。
+我们做了许多实验证明我们的优化的有效性，同时发现了运行效率与约束条件的关系， 与现实决策结合
+得出在付出成本与成为大多数人前k的条件相交时是比较难决定什么样的产品会覆盖更多的用户的。
+
+\keywords{用户覆盖率， 新产品决策， 前k查询， 权重向量}
+\end{cnabstract}
+
+
+

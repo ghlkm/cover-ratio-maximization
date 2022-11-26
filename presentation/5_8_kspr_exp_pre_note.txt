@@ -1,0 +1,50 @@
+convince effetive
+show different among methods, 
+应用到其他问题时， 能够让读者优先考虑的优化方向
+find knowledge 
+improve thero: unknown unknow
+实际的效果能让人看到应用的价值
+
+
+exploration (page 498), construction and testing (page 499), hypothesis-testing, demonstration, and modeling (page 500)
+Denning listed modeling, simulation, measurement, validation, prototyping, testing, performance analysis, and comparisons
+
+(1) Form a hypothesis, 
+(2) construct a model and make a prediction, 
+(3) design an experiment and collect data, and 
+(4) analyze results. 
+
+
+
+historical methods, which collect data from already completed projects; 
+and controlled methods, which attempt to increase the statistical validity of results by providing multiple instances of observations.
+
+
+Typically, in reports of those studies, it is not known if (or rather, “not shown that”) system  outperforms system  with data set  and parameters 
+
+
+There again, many fields of computing have introduced standard tests, input data, and expected outputs, against which competing solutions can be compared
+
+
+编程语言的选择应该优先以知识领域的流行语言为主
+1. 库
+2.  
+
+
+1. 演化计算:  MATLAB ， java
+2. 机器学习:  Python
+3. 数据库: C++, SQL
+
+CPU：复杂计算型
+GPU：简单重复计算型
+cache, memory： 大数据型
+I/O：实时大数据型
+
+
+
+
+想展示这个问题在解决时不同数据分布会带来什么影响以及结果
+
+
+
+

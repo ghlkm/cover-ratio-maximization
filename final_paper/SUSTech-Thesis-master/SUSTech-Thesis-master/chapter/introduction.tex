@@ -1,0 +1,43 @@
+\chapter{INTRODUCTION}
+\label{chp:introduction}
+Take smartphone market as an example, there are different models of smartphones 
+($D=$\{$r_1, r_2, ..., {r_m}$\}). Each model ($r_i=(r_i[1], r_i[2], ..., r_i[d])$) 
+has different prices, pixels, battery capacities, cooling capacities and etc. 
+Now a company $P$ owns $x$ models ($P=$\{$p_1, p_2, ..., p_x$\}$\in D$) 
+and a user data set $W=$\{$w_1, w_2, ..., w_n$\}. Different users prefer in 
+different aspects, for example some of them may prefer smartphones that with 
+large battery capacity but some prefer those with better quality of screen, so each 
+$w_i=(w_i[1], w_i[2], ..., w_i[d])$ represents the preference weight vector corresponding 
+to a single user. The score of a model $r_i$ respecting to a user $w_i$ is the 
+dot product $r_i\cdot w_i$. Usually a user will only make a choice from his own 
+view of top-$k$, so a product ranks top-$k$ for the users is quite important. 
+A product covers a user only when its score ranks top-$k$ among all existing 
+products $D$. With the development of company and market, company has to develop a new 
+product to cover more users and make more profit. But with the limitation of technology, 
+money and other factors, one can't develop a perfect product to cover all users. 
+It can only develop a product that covers as more user as possible under a constraint. 
+For a company, some of its products have covered some users, so what it wants to do 
+is how to make this new product cover more users that uncovered before.
+
+In real life, k-Cover Ratio Maximization ($kCRM$) can solve the problems that how to 
+decide the next generation product for companies. In advertising industry, it can help 
+merchants how to cover specific group such as students, pregnant women and children. 
+Besides it can tell advertiser where to set up new advertising board and if do so it 
+can cover which group of people. Data analysts can use it to discover which group of 
+people is ignored by the market. It can tell vedio makers to make which kinds of vedios
+to attract users in YouTube, TikTop or other vedio platform.
+
+Generally speaking, it is not a product covers a user but a group of products covers 
+a user. And for different users, there are different groups of products. Among these 
+groups of products, there are uncertain number of identity products. In our problem, 
+we are aim to find this new product in continuous product space, which means there are 
+infinite candidate products, so it is difficult to tell which product covers the most 
+users.
+
+In this paper, we will use computational geometric nature of $kCRM$ to explain how to 
+find the exact optimal options (products) with the data structure $CellTree$ mentioned 
+in $kSPR$\cite{tang_mouratidis_yiu_2017}. Besides, from some observations of this problem, we propose advance 
+method that ignore irrelevant users and candidate products to save time. At last 
+we sample products that satisfy the constraint and use their maximal cover count to 
+prune the $CellTree$.
+

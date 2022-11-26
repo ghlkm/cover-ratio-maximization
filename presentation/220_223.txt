@@ -1,0 +1,31 @@
+
+
+a app to a label
+
+you'd better use your own word to state what is the clocal-world assumption 
+
+
+DBSCAN cluster geographical information
+
+
+
+220 Balanced Dominating top-k Queries over Uncertain  Data 
+1. 平衡好概率与score, 有的概率低score高， 有的score高概率低， 有的排名相差但是实际分数差很远
+2， 定义balance degree 去平衡 pr  and score， bd是基于基本不等式的
+3. 数据原先排好序的， 那排序也需要时间， 剪枝原理是什么？
+4. 只能适用于一维数据， 这个平衡没有意识到一件事， 某个维度低另一个维度高本身是不可比较属于
+non-dominate
+5.只有一个数据集
+问题简单， 自己的东西， 实验不严谨
+
+
+233 Content Sharing Prediction for Device-to-Device (D2D)-based Oﬄine Mobile Social Networks by Network Representation Learning
+1. 变成权重图
+2. GPS点能提高精准
+3. 矩阵分解能减少训练量， 减少内存消耗， 提高训练效率， 发现隐藏知识
+4. 梯度下降训练矩阵
+5. 数据是google play的， 用户间用什么软件发文件
+6. 没有创新点
+7. 文章的组织有问题
+7页 heal
+

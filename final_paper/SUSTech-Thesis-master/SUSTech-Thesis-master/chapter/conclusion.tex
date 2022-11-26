@@ -1,0 +1,15 @@
+\chapter*{CONCLUSION}
+\label{chap:conclusion}
+Motivated by the need of introducing new product, we proposal our problem kCRM, 
+which is aim to find the exact optimal solution that covers the most rest users which
+product dataset $P$ can't cover. We use data structure $CellTree$ introduced in 
+$kSPR$ as our baseline. Then we base on the relationship between constraint and user 
+insertion
+halfspace to prune unrelated users and get lower bound of optimal solution to prune
+the nodes in $CellTree$. Besides, we change the insertion order of user halfspaces 
+to more efficiently process insertion reducing the possible useless nodes.
+In our paper, we use experiments to show our optimization for the baseline did improve it
+a great deal and we find some inner connection between efficiency of our approach 
+and constraint. For the future work, we can perform further study the effect of insertion
+order of halfspaces to more efficiently solve $kCRM$ and so that we can deal with larger
+user datasets.     

@@ -1,0 +1,145 @@
+﻿写在最后的话
+
+无论是学习科研还是生活， 大学都充满了不确定， 也许我们
+会经历迷茫甚至绝望的低谷， 得不到我们想要的结果，
+
+写在最后的话
+
+“我们不必留恋所谓过去的好时光，那个时候生活充满艰难危险和迷惘；我们也不必为今天的时代过分沮丧，因为今天，也总有一天会被人们称做是——过去的好时光。”希望学弟学妹们能始终相信自己， 构想未来， 活在当下， 说走就走想干就干， 活出自己， 不留遗憾。在努力的过程中， 我们不仅掌握了方法， 也会渐渐收获了结果。
+    最后， 感谢入学后给与了我生活学习上很大帮助的倪犀子学长、冷玥学姐， 感谢GPA4.0的活动部， 感谢一直在数学上帮助我的邵宣杰同学，感谢科研上给与我指导的Hisao、唐博教授，感谢DBGroup@Sustech的朋友们， 感谢华为Qos1组的同事们。同时感谢张艺凡的采访让我表达对我大学生活中经过的人们由衷的敬意。  
+
+
+,--stack=268435456
+
+
+The hyperplane is oriented such that the interior of C is on the negative side of it. 
+
+很有幸在大一上线性代数时认识了19班的陈颖， 下课都会抢着找老师问问题， 勤学好问不懂的她都会刨根问底；长得非常有艺术气质的理科生， 致仁书院民乐队成员， 拉二胡的好手， 多次参加民乐队的大型表演活动；喜爱运动， 多次代表书院参加校运会帮书院赢得奖项， 还是树德书院女足的成员。非常全面的一个同学， 值得各位路过的树德同胞投一票。投票方式:登陆网上服务大厅——评选系统——投票——选择“（同学投票）树德书院2020届书院优秀毕业评选” 谢谢大家！
+
+DBGroup@Sustech的龚玥， 美貌、努力、 智慧三位一体。 以前大一物理实验课大部分时候都会发现她留到后面很认真地把实验做完、研究。人工智能课程IMP项目时跟她讨论很多， 她对项目精益求精， 也经常能给我很多建议以及启发。相信这位16级计算机系一姐未来博士道路能创造更多的精彩， 欢迎树德书院的同学投票。投票方式:登陆网上服务大厅——评选系统——投票——选择“（同学投票）树德书院2020届书院优秀毕业评选” 。未来校十佳毕业生选举大家也可以多关注关注她。
+
+
+吴远航， ACM靓仔选手， 算法能力强， 出色的AC能力， 刷题高手；腾讯超长实习者， 热心帮助同届同学以及学弟学妹内推；对未来计划踏实可靠， 有理想有抱负， 值得你拥有！投票方式:登陆网上服务大厅——评选系统——投票——选择“（同学投票）树德书院2020届书院优秀毕业评选” 。
+When you get older your wild heart will live for younger days.
+Think of me if ever you're afraid. 
+He said one day you'll leave this world behind, 
+so live a life you will remember.
+
+
+1130
+
+those with higher pruning potential are processed ﬁrst
+
+98662xx
+
+258 0.510327
+0 0.132795 0.28596 0.487225 0.094021 
+
+0.132795 0.285960 0.487225 0.094021 
+
+
+1. 根据与其他相交数排序
+2。 根据dominate排序
+98662xx
+
+OBS2:    过滤掉已经cover的  #这个
+
+OBS1：  只考虑相等的情况
+OBS3:    过滤掉与约束条件不相交的
+OBS4:    convex hull 凸包过于复杂（能不能画个大概的凸包， 如何能取这个大概的凸包）
+OBS5： 负半空间到达一定数量的节点其实是可以剪掉的， 比如card(W) = n, 已经最优解至少cover Alpha个用户
+             那么哪些负半空间数超过 Beta = n- Alpha的节点不可能成为最优解， 可以直接剪掉
+
+
+不同的数据集取平均
+因为OBS5的随机， 对比其他时应该固定OBS5， 选取合适的prunk参数
+1. 对于预处理有没有过滤没用的pdt算sk //TODO写代码
+2. 对比OBS1  其他优化都开
+3. 对比OBS3  给数据看过滤了多少 
+4. 对比OBS4  凸包太复杂 TODO
+5. 对比OBS5  给出prunk
+6. d对实验的影响   XXXXXXXXXXXXX
+7. k对实验的影响
+8. user data distribution， 这里还比较了不同约束， 因为对OBS3影响特别大
+9. different real product dataset   XXXXXXXXXXXXXXXX
+(10. 在哪剪枝)
+1 跟 2345不冲突
+
+1. product data D, uniform, 100k: {4d, 6d, 8d}  #user, cellcnt, runtime# @proper constrain 
+1.1 d, uniform 4d, 6d, 8d  @proper constrain 
+2. product data P, uniform from D: {2.5%, 5%, 7.5%, 10%}  #user, runtime# 
+3. user data W, uniform:{5k, 10k, 15k, 20k}, Gauss, Triangular, corelate, anticorrelate #cellcount, runtime# ##usercnt, cellcnt##
+4. Lemma1:{C(p)<=B, C(p)=B} #cellcnt, time#
+5. Lemma2:{without-->with} #usercnt#
+6. Lemma3: {card(samples)={10k, 100k, 1M, 10M}} #alpha, cellcnt, time# 
+7. Lemma4: order of insetion {random, with lamma4} #cellcount, time#
+8. constrain, HOTEL 4D data , IND 4D,  6D data
+9. k
+TODO:
+1. all data set 
+D: HOTEL4D, HOUSE6D, NBA8D, IND4D_100K, IND6D_100K, IND8D_100K
+P: HOTEL4D_P30K, HOUSE6D_P60K, NBA8D_P4K, IND4D_P30K, IND6D_P30K(IND4D_P30K),  IND6D_P30K(IND4D_P30K)
+W: USER4d20k_UNI, USER4d20k_GAUSS, USER4d20k_CORR, USER4d20k_ANTI
+
+1. how to sample new products
+
+
+
+
+对比的因素
+cellcnt lp_solve_cnt celltree_time
+
+1000 70
+
+1000 8
+2000 30
+3000 60
+4000 116
+6000 425
+10000 1843
+
+1k 5k 10k
+
+TODO 
+写脚本跑程序 改程序适应脚本
+造更多的数据
+边跑数据边写论文
+  
+
+-d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000
+
+
+cmd="./test_cgal -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out 0"
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 100 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out 0 -stdout 1
+
+
+
+有意思的发现
+1. 当K开始变大的时候， P成为top k的概率大大增加， 能cover的w越来越多， 响应时间越来越小
+2. 数据分布比较集中时， 有可能导致与约束条件相交的w很多或很少
+3. lp_solve 解方程有精度的问题
+
+
+先大的算法 然后分步一步步的算法
+
+
+
+
+
+符号约定
+global option dataset D, 
+product of D r_i    = {r_i^1, r_i^2, r_i^3, r_i^4} 
+card(D) = m
+product of P p_i    = {p_i^1, p_i^2, p_i^3, p_i^4} 
+card(P) = x
+card(W) = n
+diemensionality: d
+
+
+
+
+
+
+
+

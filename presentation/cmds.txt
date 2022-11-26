@@ -1,0 +1,182 @@
+默认5k 4d k4
+
+均匀 高斯 
+
+已运行 5
+
+
+
+
+默认
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 0 -rstdout 0
+
+2.
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 21 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 22 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 23 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 0 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 24 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 0 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 25 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 0 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 26 -rstdout 0
+
+
+3.
+
+4. 
+
+5. 优先级最后
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 0 -prunk 2048 -p_gen 10000000 -out_id 51 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 0 -prunk 2048 -p_gen 10000000 -out_id 52 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 0 -prunk 2048 -p_gen 10000000 -out_id 53 -rstdout 0
+ 
+6. 
+
+
+
+7.
+./code2 -d 4 -k 30 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 71 -rstdout 0
+
+./code2 -d 4 -k 30 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 72 -rstdout 0
+
+./code2 -d 4 -k 30 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 73 -rstdout 0
+
+./code2 -d 4 -k 50 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 74 -rstdout 0
+
+./code2 -d 4 -k 50 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 75 -rstdout 0
+
+./code2 -d 4 -k 50 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 76 -rstdout 0
+
+./code2 -d 4 -k 70 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 77 -rstdout 0
+
+./code2 -d 4 -k 70 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 78 -rstdout 0
+
+./code2 -d 4 -k 70 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 79 -rstdout 0
+
+./code2 -d 4 -k 7 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 710 -rstdout 0
+
+./code2 -d 4 -k 7 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 711 -rstdout 0
+
+./code2 -d 4 -k 7 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 712 -rstdout 0
+
+./code2 -d 4 -k 4 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 713 -rstdout 0
+
+./code2 -d 4 -k 4 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 714 -rstdout 0
+
+./code2 -d 4 -k 4 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 715 -rstdout 0
+
+./code2 -d 4 -k 20 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 7_16 -rstdout 0
+
+./code2 -d 4 -k 20 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 7_17 -rstdout 0
+
+./code2 -d 4 -k 20 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 7_18 -rstdout 0
+
+
+
+8.
+
+p1+p2+p3+p4 <=1.25
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 81 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 82 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 83 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 84 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 85 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 86 -rstdout 0
+
+
+p1+p2+p3+p4 <=1
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_31 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_32 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_33 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_7 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_8 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_9 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_10 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_11 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_12 -rstdout 0
+
+
+p1+p2+p3+p4 <=0.75
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_34 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_35 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_36 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_13 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_14 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_15 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_16 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_17 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_18 -rstdout 0
+
+
+0.75p1+0.75p2+1.25p3+1.25p4 <= 1
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_37 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_38 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_39 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_19 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_20 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_21 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_22 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_23 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_24 -rstdout 0
+
+0.75p1+0.92p2+0.92p3+0.92p4 <= 1
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_40 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_41 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 512 -p_gen 10000000 -out_id 8_42 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_25 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_26 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_GAUSS.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_27 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 1000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_28 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 5000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_29 -rstdout 0
+
+./code2 -d 4 -k 10 -u USER4d10k_TRI.txt -p HOTEL4D.txt -P HOTEL4D_P.txt -un 10000 -pn 186637 -Pn 10000 -obs1 1 -obs2 1 -obs3 1 -obs4 0 -obs5 1 -prunk 2048 -p_gen 10000000 -out_id 8_30 -rstdout 0
+
+
+
+

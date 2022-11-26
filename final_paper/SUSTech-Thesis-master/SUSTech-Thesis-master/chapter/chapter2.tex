@@ -1,0 +1,25 @@
+\chapter{PROBLEM DEFINITION}
+\label{chap:chap-two}
+
+In this section, we will firstly introduce related concept and then propose our 
+problem.  
+
+{\bfseries Definition 1.} A product $p$'s score respecting to a user $w$ is the 
+dot product $p\cdot w$.
+
+Without loss of generality, $w$ satisfies $w[i]\in [0, 1]$, $p$ satisfies 
+$p[i]\in [0, 1]$ and $\Sigma_{i=1}^d w[i]=1$. We also take the values as larger
+as better for products and so the larger the score the better.
+
+{\bfseries Definition 2.} A product $p$ covers a user $w$ when the score 
+respecting to $w$ ranks top-$k$ among $D$.
+
+{\bfseries Problem 1.} The $k-Cover Ratio Maximization$ takes product dataset 
+$D$, $P\subset D$, user data set $W$ and a positive integer $k$ as inputs. 
+It introduces how to determine a new product $p$ such that satisfies the 
+constraint $C(p)\leq B$ and maximizes the cover ratio of $P\cap \{p\}$:  
+\begin{displaymath}
+  cp(p, P, k)=\frac{|\left\{w|\forall w\in W, \left\{P\cup\left\{p \right\}\right\}\cap TopK(w)\neq \emptyset  \right\}|}{|W|}  
+\end{displaymath}
+
+For the sake of convenient, we define constraint $C(p)\leq B$ as $\Sigma_{i=1}^d p[i] \leq B$.
