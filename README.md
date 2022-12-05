@@ -4,7 +4,7 @@ This is my bachelor thesis in Southern University of Science and Technology (SUS
 The thesis topic is about given users preference vectors and a product set, introduce the product that maximizes the users atrract by ranking their top-k under specific constraints.
 
 
-If you are interested in this project, perhaps it is an easy begining for you to read from presentation\defence\defence_thesis.pdf and presentation\defence\defence_presentation.pdf. It is welcome that asks me any questions you got by email likm@mail.sustech.edu.cn.
+If you are interested in this project, perhaps it is an easy begining for you to read from presentation\defence\defence_thesis.pdf and presentation\defence\defence_presentation.pdf. It is welcome that asks me any questions you got by email likm2020@mail.sustech.edu.cn.
 
 The project structure:
 <br>code\ # C++ implementation
